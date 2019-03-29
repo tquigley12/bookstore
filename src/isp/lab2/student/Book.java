@@ -6,7 +6,7 @@ package isp.lab2.student;
  * 
  * This interface is used for features used in books but not in music products. 
  */
-public interface Book {
+public interface Book extends Product {
     
     public String getISBN();
 

@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
  * 
  * This class describes a hardcover book.  Changes were made to remove the unused getArtist() and getPlayingTime() methods.
  */
-public class HardcoverBook implements Product, Book {
+public class HardcoverBook implements Book {
 
     private String title;
     private String isbn;

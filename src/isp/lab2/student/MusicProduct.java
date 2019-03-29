@@ -9,7 +9,7 @@ import java.time.Duration;
  * This interface is used for features used in music products but not in books.
  */
 
-public interface MusicProduct {
+public interface MusicProduct extends Product {
     
     public String getArtist();
 

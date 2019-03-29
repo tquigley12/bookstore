@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
  * 
  * This class describes a paperback book.  Changes were made to remove the unused getArtist() and getPlayingTime() methods.
  */
-public class PaperbackBook implements Product, Book {
+public class PaperbackBook implements Book {
 
     private String title;
     private String isbn;

@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
  * This class describes a vinyl record.  Changes were made to remove the unused getISBN(), getAuthor(), and getPages() methods.
  */
 
-public class VinylRecord implements Product, MusicProduct {
+public class VinylRecord implements MusicProduct {
 
     private final int SECONDS_IN_MINUTE = 60;
     private final int SECONDS_IN_HOUR = SECONDS_IN_MINUTE * 60;
